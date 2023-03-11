@@ -14,7 +14,7 @@ L1.place(x=30,y=20)
 
 #################
 def Button1():
-    text = 'ยังไม่ทำ รีบทำได้แล้ว'
+    text = 'เสร็จแล้ว ดีมาก ชมตัวเองในความตั้งใจ'
     messagebox.showinfo('สถานะการบ้าน',text)
 
 FB1=Frame(GUI) #คล้ายกระดาน
@@ -33,7 +33,7 @@ B2=ttk.Button(FB1,text='ทำการบ้านEP2หรือยัง',com
 B2.pack(ipadx=20,ipady=20)
 
 def Button3():
-    text = 'ยังไม่ทำ รีบทำได้แล้ว'
+    text = 'เสร็จแล้ว ดีมาก ชมตัวเองในความตั้งใจ'
     messagebox.showinfo('สถานะการบ้าน',text)
 
 FB3=Frame(GUI) #คล้ายกระดาน
